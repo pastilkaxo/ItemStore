@@ -90,7 +90,7 @@ main .popular_slider section {
   justify-content: space-between;
   width: 25vw;
   background: white;
-  padding: 2vh;
+  padding: 1vh;
 }
 main .popular_slider section img {
   height: 35vh;
@@ -101,6 +101,7 @@ main .popular_slider section .name {
 }
 main .popular_slider section .price {
   color: brown;
+  font-size: 1vw;
   text-align: center;
 }
 main .popular_slider section span {
@@ -563,7 +564,13 @@ body {
     width: 45vw;
   }
   main .popular_slider {
-    height: 45vh;
+    height: 50vh;
+  }
+  main .popular_slider section {
+    height: 35vw;
+  }
+  main .popular_slider span {
+    font-size: 2vw;
   }
   main .cards .card {
     height: 25vh;
@@ -584,20 +591,30 @@ body {
   }
   main .popular_slider section .name {
     margin-top: 0;
-    font-size: 0.8em;
+    font-size: 0.2em;
   }
   main .popular_slider section .price {
     margin-top: 0;
     font-size: 0.8em;
   }
   main .popular_slider {
-    height: 35vh;
+    height: 45vh;
+    width: 39vh;
+    margin-left: -3vw;
   }
-  main .popular_slider section .slider-card {
-    height: 1vw;
+  main .popular_slider .for_cell {
+    width: 45vw;
   }
-  .cart-setter #get-card {
-    height: 30px;
+  main .popular_slider section {
+    margin-left: 10px;
+    height: 40vh;
+    width: 13vh;
+  }
+  #get-card {
+    height: 35px;
+  }
+  #get-name {
+    width: 75px;
   }
   main .cards {
     flex-wrap: wrap;
@@ -627,8 +644,9 @@ body {
     font-size: 0.9em;
   }
   .categories p {
-    margin-left: 15px;
+    margin-left: 9px;
     font-size: 5vw;
+    cursor: pointer;
   }
   input#search-bar {
     display: none;

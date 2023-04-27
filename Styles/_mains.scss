@@ -42,7 +42,7 @@ main {
 
       background: white;
 
-      padding: 2vh;
+      padding: 1vh;
 
       & img {
         height: 35vh;
@@ -50,13 +50,12 @@ main {
 
       & .name {
         margin-top: -2vh;
-
         text-align: center;
       }
 
       & .price {
         color: brown;
-
+         font-size: 1vw;
         text-align: center;
 
        

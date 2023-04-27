@@ -49,7 +49,13 @@ body {
   }
 
   main .popular_slider {
-    height: 45vh;
+    height: 50vh;
+    & section {
+      height: 35vw;
+    }
+    &  span {
+      font-size: 2vw;
+    }
   }
 
   main .cards .card {
@@ -79,9 +85,11 @@ body {
 
   }
 
+
+
   main .popular_slider section .name {
     margin-top: 0;
-    font-size: 0.8em;
+    font-size: 0.2em;
   }
 
   main .popular_slider section .price {
@@ -90,19 +98,28 @@ body {
   }
 
   main .popular_slider {
-    height: 35vh;
-  }
-
-  main .popular_slider section .slider-card {
-      height: 1vw;
-  }
-    
-  .cart-setter {
-
-    & #get-card {
-      height: 30px;
+    height: 45vh;
+    width: 39vh;
+    margin-left: -3vw;
+    & .for_cell {
+      width: 45vw;
+    }
+       & section {
+      margin-left: 10px;
+      height: 40vh;
+      width: 13vh;
     }
   }
+
+
+    
+ #get-card {
+  height: 35px;
+ }
+
+ #get-name {
+  width: 75px;
+ }
 
 
 
@@ -140,8 +157,9 @@ body {
 
   .categories {
     p {
-      margin-left: 15px;
+      margin-left: 9px;
       font-size: 5vw;
+      cursor: pointer;
     }
   }
   input#search-bar {
