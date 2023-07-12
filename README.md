@@ -2,7 +2,7 @@
 # Inthernet Store (Local)
 
 
-Built according to specifications published on [Store website(local)]([https://pastilkaxo.github.io/KursovoiProject/public/](https://itemstore.netlify.app/))
+Built according to specifications published on [Store website(local)]([https://itemstore.netlify.app/))
 
 
 ## Installation
